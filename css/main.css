@@ -132,7 +132,7 @@ h1{
   text-align: center;
   text-wrap: balance;
   font-weight: 900;
-  font-size: 60px;
+  font-size: 30px;
   text-shadow: 0px 0px 12px var(--button-1);;
 }
 
@@ -156,6 +156,7 @@ h4 {
 p {
   text-align: center;
   text-wrap: balance;
+  max-width: 40ch;
 }
 
 table {
@@ -183,14 +184,13 @@ ul {
   min-height: 60dvh;
   color: var(--text-3);
   /* display: flex;
-  flex-flow: column;
-  justify-content: space-evenly; */
+  flex-flow: row wrap; */
+  /* justify-content: space-evenly; */
 }
 
 #about-us p {
-  width: 50ch;
-  margin: auto;
-
+/* text-align: center; */
+margin: auto;
 }
 
 #cards {
@@ -250,9 +250,9 @@ ul {
   margin: auto;
 }
 
-#about-us {
+/* #about-us {
   text-align: left;
-}
+} */
 
 #testimonials {
   display: flex;
